@@ -1,0 +1,50 @@
+.banner-container {
+    position: relative;
+    color: var(--branco);
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 64px;
+    padding: 76px 120px;
+    background: url('../../img/hero/bg-nuvens.svg') no-repeat center / cover, var(--azul);
+}
+
+.banner-container div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 24px;
+}
+
+.banner-container div img {
+    align-self: center
+}
+
+.banner-container div:nth-child(2) {
+    align-self: center;
+    max-width: 380px;
+}
+
+.banner-container div:nth-child(2)img {
+    width: 280px
+}
+
+@media (max-width: 800px) {
+    .banner-container {
+        background: var(--azul);
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        padding: 60px 30px;
+    }
+}
+
+@media (max-width: 600px) {
+    .banner-container {
+        padding: 40px 20px;
+    }
+}

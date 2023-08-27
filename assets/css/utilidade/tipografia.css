@@ -1,0 +1,74 @@
+/* 64px */
+.font-1-xxl {
+    font: 400 4rem/1.25 'Audiowide', sans-serif;
+}
+
+/* 60px */
+.font-1-xl {
+    font: 400 3.75rem/1.25 'Audiowide', sans-serif;
+}
+
+/* 44px */
+.font-1-l {
+    font: 400 2.75rem/1.25 'Audiowide', sans-serif;
+}
+
+.font-1-m {
+    font: 400 2rem/1.25 'Audiowide', sans-serif;
+}
+
+.font-2-m {
+    font: 400 2rem/1.4 'Share Tech', sans-serif;
+}
+
+@media (max-width:800px) {
+
+    /* 64px */
+    .font-1-xxl {
+        font: 400 3.75rem/1.25 'Audiowide', sans-serif;
+    }
+
+    /* 60px */
+    .font-1-xl {
+        font: 400 2.75rem/1.25 'Audiowide', sans-serif;
+    }
+
+    /* 44px */
+    .font-1-l {
+        font: 400 2rem/1.25 'Audiowide', sans-serif;
+    }
+
+    .font-1-m {
+        font: 400 1.75rem/1.25 'Audiowide', sans-serif;
+    }
+
+    .font-2-m {
+        font: 400 1.75rem/1.4 'Share Tech', sans-serif;
+    }
+}
+
+@media (max-width:600px) {
+
+    /* 64px */
+    .font-1-xxl {
+        font: 400 3rem/1.25 'Audiowide', sans-serif;
+    }
+
+    /* 60px */
+    .font-1-xl {
+        font: 400 2.5rem/1.25 'Audiowide', sans-serif;
+    }
+
+    /* 44px */
+    .font-1-l {
+        font: 400 1.75rem/1.25 'Audiowide', sans-serif;
+    }
+
+    .font-1-m {
+        font: 400 1.25rem/1.25 'Audiowide', sans-serif;
+    }
+
+    .font-2-m {
+        font: 400 1.25rem/1.4 'Share Tech', sans-serif;
+    }
+}

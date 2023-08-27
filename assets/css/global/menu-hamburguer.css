@@ -1,0 +1,35 @@
+#menu-hamburguer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:5px;
+    position: relative;
+}
+
+#menu-hamburguer span {
+    height: 5px;
+    width: 32px;
+    background-color: var(--branco);
+    border-radius: 50px;
+    display: flex;
+    transition: .3s;
+}
+
+#menu-hamburguer.ativo span:nth-child(1){
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: rotate(50deg);
+}
+
+#menu-hamburguer.ativo span:nth-child(2){
+    opacity: 0;
+}
+
+#menu-hamburguer.ativo span:nth-child(3){
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: rotate(-50deg);
+}

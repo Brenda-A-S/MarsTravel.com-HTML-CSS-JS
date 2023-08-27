@@ -1,0 +1,27 @@
+:root {
+    --azul: #193248;
+    --vermelho: #CE4D36;
+    --mostarda: #E98724;
+    --azul-sc: #263238;
+    --branco: #f7f7f7;
+}
+
+.azul {
+    background-color: var(--azul);
+}
+
+.vermelho {
+    background-color: var(--vermelho);
+}
+
+.mostarda {
+    background-color: var(--mostarda);
+}
+
+.azul-sc {
+    background-color: var(--azul-sc);
+}
+
+.branco {
+    background-color: var(--branco);
+}
