@@ -27,11 +27,11 @@ img {
 
 body::-webkit-scrollbar {
     width: 11px;
-    background-color: #111;
+    background-color: var(--branco);
 }
 
 body::-webkit-scrollbar-thumb {
-    background-color: #f00;
-    border: 2px solid #111;
+    background-color: var(--azul);
+    border: 2px solid var(--branco);
     border-radius: 10px;
 }
